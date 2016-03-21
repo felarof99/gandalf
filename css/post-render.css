@@ -1,0 +1,107 @@
+/*
+    learning-card-single
+*/
+
+.post-render-single {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.post-render-single > * {
+    height: 100%;
+}
+
+.post-render-single .col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    height: 100%;
+}
+
+.post-render-single .col1 .upvote {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post-render-single .col1 .upvote > * {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.post-render-single .col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+.post-render-single .quote-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    width: 100%;
+    margin-right: 5px;
+}
+
+.post-render-single .quote-row small {
+    font-size: x-small;
+}
+
+.post-render-single .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.post-render-single .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.post-render-single .row3 {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+/*
+    learning-card-list
+*/
+.post-render-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.post-render-list > * {
+    width: 100%;
+}
+
+.post-render-list .title {
+    margin-left: 15px;
+}
+
+/*
+    learning-card
+*/
+.post-render {
+    height: auto;
+    padding: 5px;
+}

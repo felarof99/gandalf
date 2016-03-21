@@ -1,0 +1,74 @@
+/*
+    learning-add-single
+*/
+.post-add-button {
+    width: 100%;
+}
+.post-add-button button {
+    height: 50px;
+    width: 100%;
+}
+.post-add-single {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post-add-single > * {
+    width: 100%;
+}
+
+.post-add-single .mdl-textfield {
+    width: 100%;
+}
+
+.post-add-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.post-add-actions > * {
+    align-self: flex-end;
+}
+
+.post-add-actions #cancelBtn {
+    align-self: flex-start;
+}
+
+.post-add-actions .checkbox {
+    font-size: medium;
+    margin-right: 25px;
+}
+
+.post-add-list .mdl-textfield {
+    width: 100%;
+}
+
+.post-add-list #title {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.post-add-single-tab .mdl-card {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.post-add-list-tab .mdl-card {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.post-add-single-form-card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
